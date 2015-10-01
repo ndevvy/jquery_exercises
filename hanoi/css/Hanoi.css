@@ -1,0 +1,59 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+div {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.hanoi-header {
+  text-align: center;
+  font-style: Arial;
+}
+
+.hanoi-tower {
+  border: 2px solid black;
+  float: left;
+  width: 100px;
+  height: 300px;
+  display: block;
+  padding: 10px;
+}
+
+ul[selected = "true"] {
+  background-color: yellow;
+  border: 5px ssolid yellow;
+}
+
+.hanoi-disc {
+  border: 2px solid black;
+  display: block;
+  height: 100px;
+}
+
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
